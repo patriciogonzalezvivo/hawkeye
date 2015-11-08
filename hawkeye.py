@@ -21,5 +21,5 @@ while True:
         time_stamp = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
         print("Shot!! " + time_stamp)
         
-        os.system("raspistill -w " + str(width) + " -h " + str(height) + " -o " + time_stamp + ".jpg" )
-        time.sleep(0.2)
+        os.system("raspistill -vf -hf -w " + str(width) + " -h " + str(height) + " -o " + time_stamp + ".jpg -t 1" )
+        time.sleep(1)
