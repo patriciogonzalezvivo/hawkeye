@@ -3,7 +3,22 @@
 
 # Raspberry Hawkeye
 
-[Kodak Brownie Hawkeye](http://kenrockwell.com/trips/2010-02-rt-66/contact-sheet.htm)
+
+
+## Elements
+
+- [Kodak Brownie Hawkeye](http://kenrockwell.com/trips/2010-02-rt-66/contact-sheet.htm) $30-$40
+- [RaspberryPi A+](https://www.adafruit.com/products/2266): $24.95
+- [RaspberryPi Camera Module](https://www.adafruit.com/products/1367): $29.95
+- [USB to TTL](https://www.adafruit.com/products/954): $9.95
+- [PowerBoost 1000 Charger](https://www.adafruit.com/products/2465): $19.95
+- [Lithium Ion Battery Pack - 3.7V 6600mAh](https://www.adafruit.com/product/353): $29.50
+
+## Printing mounts
+
+## Assembling
+
+## Wiring
 
 ## Connecting to the raspberryPi
 
@@ -32,4 +47,18 @@ cd ~
 git clone —recursive https://github.com/patriciogonzalezvivo/hawkeye.git
 cd hawkeye/rpitx
 ./install.sh
+```
+
+## Install autostart hawkeye on after boot
+
+- Open crontab
+
+```bash
+crontab -e
+```
+
+- Add ```hawkeye.py``` to crontab list to be run every reboot.
+
+```
+@reboot /home/pi/hawkeye/./hawkeye.py
 ```
