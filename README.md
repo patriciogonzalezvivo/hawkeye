@@ -49,7 +49,11 @@ cd hawkeye/rpitx
 ./install.sh
 ```
 
-## Install autostart hawkeye on after boot
+And edit the main pythons script for transmitting in in a [legal frequency](http://reboot.fcc.gov/spectrumdashboard/searchSpectrum.seam)
+
+
+
+## Install autostart ```hawkeye.py``` after every boot
 
 - Open crontab
 
