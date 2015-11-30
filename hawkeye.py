@@ -2,9 +2,9 @@
 #
 # Created by Patricio Gonzalez Vivo ( @patriciogv ) on 11/08/2015
 #
-width = 320
-height = 256
-freq = 400000
+width = 800
+height = 800
+freq = 137500
 
 import RPi.GPIO as GPIO
 import time
