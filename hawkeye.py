@@ -2,8 +2,8 @@
 #
 # Created by Patricio Gonzalez Vivo ( @patriciogv ) on 11/08/2015
 #
-width = 800
-height = 800
+width = 500
+height = 500
 freq = 137500
 
 import RPi.GPIO as GPIO
