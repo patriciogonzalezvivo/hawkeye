@@ -1,17 +1,21 @@
 
 ![](imgs/img.png)
 
-# Raspberry Hawkeye
+# HawkeyeCube
+
 
 
 
 ## Elements
 
-- [Kodak Brownie Hawkeye](http://kenrockwell.com/trips/2010-02-rt-66/contact-sheet.htm) $30-$40
+- [Kodak Brownie Hawkeye](http://kenrockwell.com/trips/2010-02-rt-66/contact-sheet.htm) $25-$45
+
 - [RaspberryPi A+](https://www.adafruit.com/products/2266): $24.95
-- [RaspberryPi Camera Module](https://www.adafruit.com/products/1367): $29.95
-- [USB to TTL](https://www.adafruit.com/products/954): $9.95
+
+- [RaspberryPi IR Camera Module](https://www.adafruit.com/products/1367): $29.95
+
 - [PowerBoost 1000 Charger](https://www.adafruit.com/products/2465): $19.95
+
 - [Lithium Ion Battery Pack - 3.7V 6600mAh](https://www.adafruit.com/product/353): $29.50
 
 ## Printing mounts
@@ -32,8 +36,7 @@ Install PL2303 drivers: [el-capitan](https://github.com/patriciogonzalezvivo/haw
 screen /dev/cu.usbserial 115200  
 ```
 
-#### on
- Linux
+#### on Linux
 
 ```bash
 sudo apt-get install screen
@@ -50,8 +53,6 @@ cd hawkeye/rpitx
 ```
 
 And edit the main pythons script for transmitting in in a [legal frequency](http://reboot.fcc.gov/spectrumdashboard/searchSpectrum.seam)
-
-
 
 ## Install autostart ```hawkeye.py``` after every boot
 
