@@ -20,6 +20,8 @@
 
 ## Printing mounts
 
+![](imgs/3d-model.png)
+
 ## Assembling
 
 ## Wiring
