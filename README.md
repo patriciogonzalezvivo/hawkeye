@@ -28,6 +28,12 @@
 
 ### Using the [USB to TTL cable](http://www.adafruit.com/products/954)
 
+![](imgs/learn_raspberry_pi_console_cable.jpg)
+
+![](imgs/learn_raspberry_pi_gpio-srm.png)
+
+![](imgs/learn_raspberry_pi_gpio_closeup.jpg)
+
 #### on OSX
 
 Install PL2303 drivers: [el-capitan](https://github.com/patriciogonzalezvivo/hawkeye/raw/master/drivers/PL2303_MacOSX_1_6_0_20151022.zip)
